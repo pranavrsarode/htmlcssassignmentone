@@ -1,0 +1,110 @@
+
+.main-container{
+    background-color: lightgray;
+    width: 80%;
+    margin-inline: auto;
+}
+.header{
+    background-color: red;
+    text-align: center;
+    height: 100px; 
+    width: 100%;
+    border-radius: 20px;
+    float: none;
+ }
+ 
+ .left-box{
+     background-color: green;
+     text-align: center;
+     height: 60px;
+     width: 100%;
+     border-radius: 20px;
+     float: none;
+ }
+ 
+ .center-box{
+     background-color: yellow;
+     color: black;
+     text-align: center;
+     height: 330px;
+     width: 100%;
+     border-radius: 20px;
+     float: none;
+ }
+ 
+ .footer{
+     background-color: blue;
+     text-align: center;
+     height: 70px;
+     width: 100%;
+     border-radius: 20px;
+     float: none;
+ }
+ 
+ .right-box{
+     background-color: pink;
+     text-align: center;
+     height: 60px;
+     width: 100%;
+     border-radius: 20px;
+     float: none;
+ }
+
+@media  (min-width: 700px) {
+    .main-container{
+        background-color: lightgray;
+        width: 80%;
+        margin-inline: auto;
+    }
+    
+    .header{
+       background-color: red;
+       text-align: center;
+       height: 100px; 
+       width: 100%;
+       border-radius: 20px;
+       float: left;
+    }
+    
+    .left-box{
+        background-color: green;
+        text-align: center;
+        height: 450px;
+        width: 15%;
+        border-radius: 20px;
+        float: left;
+    }
+    
+    .center-box{
+        background-color: yellow;
+        color: black;
+        text-align: center;
+        height: 450px;
+        width: 70%;
+        border-radius: 20px;
+        float: left;
+    }
+    
+    .footer{
+        background-color: blue;
+        text-align: center;
+        height: 70px;
+        width: 100%;
+        border-radius: 20px;
+        float: right;
+    }
+    
+    .right-box{
+        background-color: pink;
+        text-align: center;
+        height: 450px;
+        width: 15%;
+        border-radius: 20px;
+        float: left;
+    }
+    
+}
+
+/* @media  (max-width: 700px) 
+ } */
+
